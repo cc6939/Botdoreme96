@@ -1470,7 +1470,7 @@ def lineBot(op):
                     for target in targets:
                         try:
                             contact = line.getContact(target)
-                            X = contact.displayName
+                            X = contact.displayName::
                             profile = line.getProfile()
                             profile.displayName = X
                             line.updateProfile(profile)
